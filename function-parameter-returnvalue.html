@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JAVA SCRIPT</title>
+        <script>
+
+// ex:-1 function and calling
+            function hello(){
+                document.write("HELO<br>");
+                document.write("my name is vibhu<br>");
+            }
+            hello();
+            function yahoo(){
+                document.write("HELO yahoo<br>");
+            }
+            yahoo();
+         
+// ex:- 2 function with parameter 
+  
+         function write(fname,lname){
+            document.write("HELO"+" "+ fname+ " "+ lname);
+         }
+         write("vibhu","krishana<br>");
+
+
+        //  ex-2(i) ne biji rit lkhvani
+         function demo(fname="demo",lname="simple<br>"){
+            document.write("HELO"+" "+ fname+ " "+ lname);
+         }
+         demo();
+        
+        // ex:-2 (ii) sum valu example
+        
+        function sum(a,b){
+            document.write(a+b+"<br>");
+        }
+        sum(20,30);
+
+
+//ex:=3 function with return value
+  
+   function fullName(fname="yahoo",lname="baba"){
+    var a= fname+ lname;
+    return a;
+
+   }
+   var fn=fullName("ram<br>", "shyam<br>");
+   document.write(fn);
+
+
+// ex:-3 (i) percentage valu example   
+
+ function sum(eng,math,sci){
+    var s= math+eng+sci;
+    return s;
+ }
+ function percentage(tt){
+    var per= tt/300*100;
+    document.write(per);
+ }
+ var total=sum(73,78,80);
+ percentage(total);
+
+        </script>
+        </head>
+        <body>
+
+        </body>
+        </html>

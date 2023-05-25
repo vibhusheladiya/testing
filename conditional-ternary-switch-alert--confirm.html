@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JAVA SCRIPT</title>
+        <script>
+// ex:- 1 conditional (ternary) opeartor like (condtiona)? true statement: false statement
+           var a=100;
+           var b;
+           (a==100)?b="true": b="false";
+           document.write(b+"<br>");
+
+        //   ane biji rite pn lkhi skay
+        var x=100;
+           var y;
+          y= (x==500)?"true":"false";
+           document.write(y+"<br>");
+            
+            // ane 3 rite pn lkhi skay
+            var p=100;
+           var q;
+          q= "value is "+(p==100? "true":"false");
+           document.write(q+"<br>");
+
+// ex:- 2 switch statement
+       
+      
+    //  var day= prompt("plz enter the day number");
+    // fd= day;
+    day=1;
+       switch(day){
+            case 0:
+            document.write("today is monday<br>");
+            break;
+            case 1:
+            document.write("today is tuesday<br>");
+            break;
+            case 2:
+            document.write("today is wednesday<br>");
+            break;
+            case 3:
+            document.write("today is thursday<br>");
+            break;
+            case 4:
+            document.write("today is friday<br>");
+            break;
+            case 5:
+            document.write("today is saturday<br>");
+            break;
+            case 6:
+            document.write("today is sunday<br>");
+            break;
+       default:
+        document.write("plz enter the valid day<br>");     
+       }
+        
+          //ex:==2 nu (i) example switch valu j te
+
+          var age=prompt("enter your age");
+          switch(true){
+            case(age>=15 && age<= 20):
+            document.write("your eligble");
+            break;
+            case(age>=21 && age<= 30):
+            document.write("you are not eligible");
+            break;
+            default:
+                document.write("enter valid age");
+          }
+
+// ex:- 3 alert box          
+     var o=40;
+     h= 20;
+     if(o>h){
+        alert("o is big");
+     }else{
+        alert("h is big");
+     }
+
+// ex:- 4 confirm box
+      var n=confirm("do you like me");
+      if(n){
+        alert("thanks");
+      }else{
+        alert("sorry");
+      }
+
+        </script>
+        </head>
+        <body>
+
+        </body>
+        </html>
